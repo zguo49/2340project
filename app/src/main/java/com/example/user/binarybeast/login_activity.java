@@ -8,9 +8,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+<<<<<<< HEAD
 import android.widget.Toast;
 
 import java.util.HashMap;
+=======
+>>>>>>> original/master
 
 
 public class login_activity extends Activity {
@@ -26,6 +29,7 @@ public class login_activity extends Activity {
         EditText passwordEntry = (EditText) findViewById(R.id.passwordText);
         String username = usernameEntry.getText().toString();
         String password = passwordEntry.getText().toString();
+<<<<<<< HEAD
         if (Registration.accounts.existAccount(username)) {
             if (Registration.accounts.verifyAccount(username, password)) {
                 //start activity, say you logged in, whatevers
@@ -36,6 +40,15 @@ public class login_activity extends Activity {
             }
         } else {
             Toast.makeText(login_activity.this, "Username does not exist!", Toast.LENGTH_LONG).show();
+=======
+
+        if(username.equals("user"))  {
+            if(password.equals("pass")) {
+                //start activity, say you logged in, whatevers
+                Intent intent = new Intent(this, HomePage.class);
+                startActivity(intent);
+            }
+>>>>>>> original/master
         }
     }
     public void cancelLogin(View view){

@@ -50,10 +50,13 @@
             android:name=".HomePage"
             android:label="@string/title_activity_home_page" >
         </activity>
+<<<<<<< HEAD
         <activity
             android:name=".Registration"
             android:label="@string/title_activity_registration" >
         </activity>
+=======
+>>>>>>> original/master
     </application>
 
 </manifest>

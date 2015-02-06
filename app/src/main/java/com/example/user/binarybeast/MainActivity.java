@@ -21,8 +21,13 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
         Button login_button = (Button) findViewById(R.id.login_button);
         login_button.setOnClickListener(new View.OnClickListener(){
+=======
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener(){
+>>>>>>> original/master
             public void onClick(View v){
                 loginPage();
             }
@@ -58,9 +63,12 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+<<<<<<< HEAD
     public void registerPage(View view) {
         Intent intent = new Intent(this,Registration.class);
         startActivity(intent);
     }
 
+=======
+>>>>>>> original/master
 }

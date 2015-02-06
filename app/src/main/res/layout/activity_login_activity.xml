@@ -17,7 +17,11 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_marginTop="57dp"
+<<<<<<< HEAD
         android:hint="UserName" />
+=======
+        android:text="UserName" />
+>>>>>>> original/master
 
     <EditText
         android:layout_width="match_parent"
@@ -26,7 +30,11 @@
         android:layout_below="@+id/usernameText"
         android:layout_alignParentStart="true"
         android:layout_marginTop="15dp"
+<<<<<<< HEAD
         android:hint="Password"
+=======
+        android:text="password"
+>>>>>>> original/master
         android:password="true" />
 
     <Button
@@ -36,14 +44,22 @@
         android:layout_below="@+id/passwordText"
         android:layout_alignParentStart="true"
         android:layout_marginTop="25dp"
+<<<<<<< HEAD
         android:text="Login"
+=======
+        android:text="Login!!!!"
+>>>>>>> original/master
         android:onClick="authenticateUser"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/cancel"
+<<<<<<< HEAD
         android:text="Cancel"
+=======
+        android:text="Cancel:(((((("
+>>>>>>> original/master
         android:onClick="cancelLogin"
         android:layout_below="@+id/authenticate"
         android:layout_alignParentStart="true" />
